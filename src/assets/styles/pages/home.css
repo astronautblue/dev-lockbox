@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+	.home-container {
+		@apply mx-auto max-w-xl;
+
+		.alert-custom {
+			@apply border-white text-white;
+
+			.alert-icon-custom {
+				@apply size-7 stroke-2;
+			}
+
+			span {
+				@apply text-accent;
+			}
+		}
+	}
+}
